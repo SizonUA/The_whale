@@ -1,126 +1,190 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style/normalize.css" />
+    <link rel="stylesheet" href="style/style.css" />
+    <title>The Whale</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style/normalize.css">
-  <link rel="stylesheet" href="style/style.css">
-  <title>The Whale</title>
-</head>
-
-<body>
-
-  <div class="container">
+  <body>
     <!--  begin header -->
     <div class="header">
       <div class="header__top">
-        <img class="header__logo" src="image/logo.png" alt="logo">
-        <h1 class="header__title">Lorem ipsum dolor sit
-          consectetur adipiscing elit nullam sagittis.</h1>
-        <p class="header__text">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sagittis risus et diam euismod vestibulum.
-          Fusce
-          suscipit leo ornare nulla ullamcorper, sed pellentesque libero ornare. Praesent egestas rhoncus sagittis.
-        </p>
-        <button class="header__button">
-          BOOK A MEETING
-        </button>
+        <div class="container">
+          <img class="header__logo" src="image/logo.png" alt="logo" />
+          <div class="header__description">
+            <h1 class="header__title">
+              Lorem ipsum dolor sit consectetur adipiscing elit nullam sagittis.
+            </h1>
+            <p class="header__text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+              sagittis risus et diam euismod vestibulum. Fusce suscipit leo
+              ornare nulla ullamcorper, sed pellentesque libero ornare. Praesent
+              egestas rhoncus sagittis.
+            </p>
+            <button class="button-primary js-header__button">
+              BOOK A MEETING
+            </button>
+          </div>
+          <!-- /.header__description -->
+        </div>
+        <!-- /.container -->
       </div>
+      <!--  /.header__top -->
 
       <div class="header__bottom">
-        <div class="header__bottom--item">
-          <svg class="item__icon" xmlns="http://www.w3.org/2000/svg" width="50" height="65" viewBox="0 0 50 65">
-            <g>
-              <g>
-                <path fill="#f30"
-                  d="M47.572 30.526a32.315 32.315 0 0 1-19.809 29.79l-.008.004-3.196 1.38-2.777-1.212a32.374 32.374 0 0 1-19.405-29.63V14.774L24.648 2.566l22.924 12.215zM49.339 13L25.206.14a1.199 1.199 0 0 0-1.143.007L.598 13.008a1.201 1.201 0 0 0-.623 1.053V30.86A34.78 34.78 0 0 0 20.82 62.69l3.257 1.419a1.2 1.2 0 0 0 .956.001l3.67-1.585a34.712 34.712 0 0 0 21.27-32V14.06c0-.443-.244-.852-.636-1.06z" />
-              </g>
-              <g>
-                <path fill="#f30"
-                  d="M15.784 30.08a1.201 1.201 0 0 0-1.827 1.56l6.346 7.432a1.201 1.201 0 0 0 1.672.152L36.755 27.2a1.201 1.201 0 1 0-1.516-1.864l-13.87 11.284z" />
-              </g>
-            </g>
-            </xmlns=>
+        <div class="container d-flex">
+          <div class="header__bottom--item">
+            <img src="image/svg/shield.svg" alt="Done" class="item__icon" />
             <p class="item__text">
               Aliquam massa nisi, iaculis ac nisi sed, dapibus congue ligula.
             </p>
-        </div>
-        <!-- /.header__bottom--item -->
+          </div>
+          <!-- /.header__bottom--item -->
 
-        <div class="header__bottom--item">
-          <svg class="item__icon" xmlns="http://www.w3.org/2000/svg" width="65" height="44" viewBox="0 0 65 44">
-            <g>
-              <g>
-                <path fill="#f30"
-                  d="M41.35 41.167c-.064 0-.126-.006-.189-.01l-.293-.012-.215.012c-.062.004-.124.01-.187.01h-26.55c-6.479 0-11.75-5.27-11.75-11.75 0-4.5 2.931-9.172 6.97-11.108l.614-.293v-.683c0-.137.009-.277.016-.418l.01-.173-.013-.228c-.006-.087-.013-.175-.013-.264 0-4.18 3.403-7.583 7.583-7.583a7.578 7.578 0 0 1 1.246.111c.29.048.574.11.855.192.038.01.077.018.115.03.309.094.61.213.904.347.077.035.152.073.228.11a7.578 7.578 0 0 1 4.236 6.794 1.082 1.082 0 1 0 2.166-.001 9.728 9.728 0 0 0-3.466-7.444c3.106-4.062 8.22-6.64 13.308-6.64 8.39 0 15.359 6.647 16.086 15.046-1.107-.078-2.765-.118-4.424.134a1.083 1.083 0 0 0 .325 2.142c2.413-.365 4.927-.023 5.075-.002 5.044.959 8.846 5.605 8.846 10.817 0 5.99-4.874 10.864-10.863 10.864zm13.874-23.623C54.651 7.794 46.614 0 36.925 0c-5.882 0-11.578 2.885-15.108 7.592-.081-.042-.167-.071-.249-.11a10.104 10.104 0 0 0-.654-.292 9.815 9.815 0 0 0-1.042-.343c-.125-.034-.248-.069-.374-.097a10.366 10.366 0 0 0-.744-.135c-.11-.016-.217-.038-.328-.05a9.855 9.855 0 0 0-1.093-.065c-5.376 0-9.75 4.373-9.75 9.75 0 .138.009.273.018.408v.005C3.095 19.12 0 24.266 0 29.417c0 7.673 6.242 13.916 13.915 13.916h26.55c.113 0 .225-.006.338-.015l.067-.008.145.008c.11.009.221.015.335.015h10.62c7.184 0 13.03-5.845 13.03-13.03 0-5.946-4.146-11.28-9.776-12.76z" />
-              </g>
-            </g>
-          </svg>
-          <p class="item__text">
-            Aliquam massa nisi, iaculis ac nisi sed, dapibus congue ligula.
-          </p>
-        </div>
-        <!-- /.header__bottom--item -->
+          <div class="header__bottom--item">
+            <img src="image/svg/cloud.svg" alt="Cloud" class="item__icon" />
+            <p class="item__text">
+              Aliquam massa nisi, iaculis ac nisi sed, dapibus congue ligula.
+            </p>
+          </div>
+          <!-- /.header__bottom--item -->
 
-        <div class="header__bottom--item">
-          <svg class="item__icon" xmlns="http://www.w3.org/2000/svg" width="59" height="64" viewBox="0 0 59 64">
-            <g>
-              <g>
-                <path fill="#f30"
-                  d="M56.15 53.016a1.183 1.183 0 0 0-.037.157c-.658 4.012-11.521 8.308-26.644 8.308-15.122 0-25.985-4.296-26.643-8.308a1.264 1.264 0 0 0-.037-.152v-9.76c.033.03.073.059.107.089.253.223.51.444.8.658 4.37 3.305 13.108 5.873 25.773 5.873 12.612 0 21.329-2.548 25.717-5.833.35-.255.666-.518.963-.786v-.001zM29.47 2.32c15.724 0 26.68 4.584 26.68 8.7s-10.956 8.7-26.68 8.7c-15.725 0-26.681-4.584-26.681-8.7s10.956-8.7 26.68-8.7zm26.68 13.1zm0 8.612a1.156 1.156 0 0 0-.036.516c.022.13.036.261.036.392 0 .187-.048.375-.092.563a2.853 2.853 0 0 1-.3.766 3.932 3.932 0 0 1-.268.428 6.288 6.288 0 0 1-.675.776c-.094.091-.197.182-.302.274-.19.165-.388.33-.61.494-.095.07-.197.139-.298.208-.262.181-.536.361-.837.538-.078.047-.163.092-.245.139-.346.195-.707.388-1.097.576-.05.025-.102.048-.153.071-.435.205-.89.407-1.376.602l-.041.016c-2.635 1.052-6.005 1.938-9.931 2.518-.02.002-.04.004-.06.008-.763.112-1.546.212-2.35.3-.13.014-.269.023-.401.037-.702.073-1.412.14-2.143.194-.334.024-.684.036-1.024.057-.55.032-1.094.068-1.658.088a80.064 80.064 0 0 1-5.641-.003c-.563-.02-1.108-.057-1.657-.089-.34-.02-.69-.032-1.025-.056a69.3 69.3 0 0 1-2.142-.194c-.132-.014-.27-.023-.402-.037a66.444 66.444 0 0 1-2.35-.3c-.02-.003-.04-.005-.059-.009-3.927-.58-7.296-1.465-9.93-2.517a24.638 24.638 0 0 1-1.418-.618c-.05-.025-.104-.048-.154-.071-.39-.188-.75-.38-1.096-.577-.081-.046-.167-.091-.246-.139-.3-.176-.574-.356-.836-.537-.1-.07-.203-.138-.298-.209a9.551 9.551 0 0 1-.61-.494c-.104-.09-.208-.18-.302-.274a6.057 6.057 0 0 1-.421-.454 4.324 4.324 0 0 1-.522-.75 3.588 3.588 0 0 1-.166-.344 2.811 2.811 0 0 1-.134-.421c-.043-.185-.091-.373-.091-.56 0-.13.015-.262.036-.392.029-.175.013-.35-.036-.516V15.42c.14.127.298.25.449.376.083.07.161.14.25.209.347.274.723.544 1.13.807.085.055.18.108.268.163a19.848 19.848 0 0 0 1.507.848c.424.215.868.425 1.335.628.077.034.147.069.224.101.544.231 1.122.451 1.723.665.166.059.34.115.51.173.478.16.972.315 1.484.465.184.053.365.109.554.16.68.188 1.38.367 2.115.531.101.023.21.042.312.064a52.956 52.956 0 0 0 2.724.516c.658.108 1.335.207 2.03.297.179.023.35.05.53.072.863.105 1.756.194 2.674.27.226.019.462.033.691.05a82.8 82.8 0 0 0 2.253.131c.28.013.558.026.843.036 1 .034 2.019.058 3.074.058 1.056 0 2.075-.024 3.075-.058.284-.01.562-.023.843-.036a82.802 82.802 0 0 0 2.253-.132c.23-.017.464-.03.691-.049.918-.075 1.81-.165 2.674-.27.18-.022.351-.049.53-.072a62.543 62.543 0 0 0 2.741-.417 52.917 52.917 0 0 0 2.013-.396c.102-.022.21-.042.312-.064a44.986 44.986 0 0 0 2.115-.531c.189-.052.37-.107.554-.16a38.12 38.12 0 0 0 1.484-.465c.17-.058.344-.114.51-.173.601-.214 1.18-.434 1.723-.665.077-.032.147-.067.224-.1a24.798 24.798 0 0 0 1.76-.853c.38-.203.74-.411 1.082-.624.088-.055.183-.108.268-.163.407-.263.783-.532 1.13-.807.088-.07.165-.14.25-.209.15-.125.31-.25.449-.376zm-.092 15.391a2.854 2.854 0 0 1-.3.766 3.932 3.932 0 0 1-.268.428 6.286 6.286 0 0 1-.675.776c-.094.092-.197.182-.302.274-.19.166-.388.33-.61.494-.095.07-.197.14-.298.209-.262.18-.536.36-.837.537-.078.047-.163.093-.245.139-.346.195-.707.389-1.097.577-.05.024-.102.047-.153.07-.435.206-.89.407-1.376.602-.014.006-.027.01-.041.017-2.635 1.052-6.005 1.937-9.931 2.517-.02.002-.04.004-.06.008-.763.112-1.546.212-2.35.3-.13.014-.269.024-.401.038-.702.073-1.412.14-2.143.193-.334.025-.684.036-1.024.057-.55.033-1.094.069-1.658.088a80.04 80.04 0 0 1-5.641-.003c-.563-.02-1.108-.057-1.657-.088-.34-.02-.69-.033-1.025-.057-.73-.054-1.44-.12-2.142-.194-.132-.014-.27-.023-.402-.037a66.444 66.444 0 0 1-2.35-.3c-.02-.003-.04-.005-.059-.009-3.927-.58-7.296-1.465-9.93-2.517a24.638 24.638 0 0 1-1.418-.618c-.05-.025-.104-.048-.154-.07-.39-.189-.75-.381-1.096-.577-.081-.047-.167-.092-.246-.14-.3-.176-.574-.356-.836-.537-.1-.07-.203-.138-.298-.209a9.551 9.551 0 0 1-.61-.494c-.104-.09-.208-.18-.302-.273a6.057 6.057 0 0 1-.421-.455 4.325 4.325 0 0 1-.522-.75 3.59 3.59 0 0 1-.166-.344 2.81 2.81 0 0 1-.134-.421c-.043-.185-.091-.373-.091-.56 0-.13.015-.262.036-.391.029-.176.013-.35-.036-.517V29.34c.033.03.073.06.107.09.253.222.51.444.8.657 4.37 3.305 13.108 5.874 25.773 5.874 12.612 0 21.329-2.548 25.717-5.833.35-.255.666-.519.963-.786v-.002 8.612a1.156 1.156 0 0 0-.035.517c.022.13.036.26.036.392 0 .186-.048.374-.092.562zm2.243-29.551C56.957 4.895 46.959 0 29.469 0 11.98 0 1.98 4.895.64 9.872c-.098.17-.17.357-.17.568v42.92c0 .189.05.366.136.524 1.37 5.678 13.626 9.917 28.864 9.917 15.204 0 27.44-4.221 28.856-9.879.093-.166.145-.357.145-.561V10.44c0-.212-.072-.399-.17-.57z" />
-              </g>
-            </g>
-          </svg>
-          <p class="item__text">
-            Aliquam massa nisi, iaculis ac nisi sed, dapibus congue ligula.
-          </p>
+          <div class="header__bottom--item">
+            <img
+              src="image/svg/database.svg"
+              alt="Database"
+              class="item__icon"
+            />
+            <p class="item__text">
+              Aliquam massa nisi, iaculis ac nisi sed, dapibus congue ligula.
+            </p>
+          </div>
+          <!-- /.header__bottom--item -->
         </div>
-        <!-- /.header__bottom--item -->
+        <!-- /.container -->
       </div>
       <!-- /.header__bottom -->
-
     </div>
     <!-- /.header -->
-  </div>
-  <!-- /.container -->
 
-  <div class="container">
-    <div class="main">
-      <div class="main__item">
-        <h2 class="main__item--title">
-          Lorem ipsum dolor sit amet, consectetur adipiscing eleifend blandit.
-        </h2>
-        <p class="main__item--text">
-          Aliquam dignissim, nunc eu auctor facilisis, turpis lectus gravida tellus, in facilisis diam erat a nibh.
-          Phasellus malesuada nibh vitae mattis accumsan. Maecenas venenatis auctor odio ut mattis. Proin ut elit in
-          ante semper vulputate.
-        </p>
-        <p class="main__item--text">
-          Pellentesque at tristique dui, in efficitur enim. Integer varius orci ex. Morbi dignissim tempor lorem, sed
-          vulputate felis. Nullam tincidunt risus sit amet justo luctus, ut blandit nunc convallis. Aenean vestibulum,
-          tellus sit amet fermentum sollicitudin, felis libero aliquam purus, ac varius erat neque eu diam.
-        </p>
+    <div class="section-info">
+      <div class="container d-flex">
+        <div class="section-info--left section-info--item">
+          <h2 class="section-info--title">
+            Lorem ipsum dolor sit amet, consectetur adipiscing eleifend blandit.
+          </h2>
+          <p class="section-info--text">
+            Aliquam dignissim, nunc eu auctor facilisis, turpis lectus gravida
+            tellus, in facilisis diam erat a nibh. Phasellus malesuada nibh
+            vitae mattis accumsan. Maecenas venenatis auctor odio ut mattis.
+            Proin ut elit in ante semper vulputate.
+            <br />
+            <br />
+            Pellentesque at tristique dui, in efficitur enim. Integer varius
+            orci ex. Morbi dignissim tempor lorem, sed vulputate felis. Nullam
+            tincidunt risus sit amet justo luctus, ut blandit nunc convallis.
+            Aenean vestibulum, tellus sit amet fermentum sollicitudin, felis
+            libero aliquam purus, ac varius erat neque eu diam.
+          </p>
+        </div>
+        <!-- /.section-info--left -->
+
+        <div class="section-info--right section-info--item d-flex">
+          <div class="section-module">
+            <div class="section-module--icon">
+              <img src="image/svg/done.svg" alt="Done" width="52" />
+            </div>
+            <h3 class="section-module--title">
+              TINCIDUNT URNA
+            </h3>
+            <p class="section-module--text">
+              Morbi consequat orci non faucibus imperdiet. Nunc eu tristique
+              ipsum. Duis sed dui a ipsum ultrices pulvinar eget eu ligula.
+            </p>
+          </div>
+          <!-- /.section-module -->
+
+          <div class="section-module">
+            <div class="section-module--icon">
+              <img src="image/svg/mail.svg" alt="Done" width="52" />
+            </div>
+            <h3 class="section-module--title">
+              LIBERO VITAE
+            </h3>
+            <p class="section-module--text">
+              Morbi consequat orci non faucibus imperdiet. Nunc eu tristique
+              ipsum. Duis sed dui a ipsum ultrices pulvinar eget eu ligula.
+            </p>
+          </div>
+          <!-- /.section-module -->
+
+          <div class="section-module">
+            <div class="section-module--icon">
+              <img src="image/svg/share.svg" alt="Done" width="52" />
+            </div>
+
+            <h3 class="section-module--title">
+              EUISMOD ULTRICES
+            </h3>
+            <p class="section-module--text">
+              Morbi consequat orci non faucibus imperdiet. Nunc eu tristique
+              ipsum. Duis sed dui a ipsum ultrices pulvinar eget eu ligula.
+            </p>
+          </div>
+          <!-- /.section-module -->
+
+          <div class="section-module">
+            <div class="section-module--icon">
+              <img src="image/svg/puzzle.svg" alt="Done" width="52" />
+            </div>
+
+            <h3 class="section-module--title">
+              DUIS SAGITTIS
+            </h3>
+            <p class="section-module--text">
+              Morbi consequat orci non faucibus imperdiet. Nunc eu tristique
+              ipsum. Duis sed dui a ipsum ultrices pulvinar eget eu ligula.
+            </p>
+          </div>
+          <!-- /.section-module -->
+        </div>
+        <!-- /.section-info--right -->
       </div>
-      <!-- /.main__item -->
-
-      <div class="main__item">
-
-      </div>
-      <!-- /.main__item -->
+      <!-- /.container -->
     </div>
-    <!-- /.main -->
-  </div>
-  <!-- /.container -->
+    <!-- /.section-info -->
 
-
-  <div class="container">
-
-  </div>
-  <!-- /.container -->
-
-
-</body>
-
+    <div class="section-customer d-flex">
+      <div class="section-customer--left section-customer--item">
+        <img class="section-customer--img" src="image/section-customer.jpg" alt="Section customer">
+      </div>
+      <div class="section-customer--right section-customer--item">
+        <div class="section-customer--body">
+        <h3 class="section-customer--title">
+          Lorem ipsum dolor sit amet, consectetur elit eleifend mauris.
+        </h3>
+        <p class="section-customer--text">
+          Phasellus quis sapien ac ex eleifend viverra non vulputate mi.
+          Praesent in sodales lacus, et vehicula ex. Pellentesque elementum eu
+          nisl non posuere. Sed lobortis purus non tempor dapibus.
+          <br />
+          <br />
+          Sed nec iaculis leo, in luctus ipsum. Sed eu neque consectetur, mollis
+          neque vel, ultrices quam. Donec ullamcorper consectetur lacinia.
+          Praesent laoreet enim eget leo suscipit, at bibendum elit egestas.
+          Cras euismod congue nunc id convallis.
+        </p>
+      </div>
+      </div>
+    </div>
+    <!-- <div class="container"></div> -->
+    <!-- /.container -->
+  </body>
 </html>
