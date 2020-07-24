@@ -191,8 +191,8 @@
         Lorem ipsum dolor sit amet.
       </div>
       <div class="section-video--body">
-        <iframe width="920" height="516" src="https://www.youtube-nocookie.com/embed/xcJtL7QggTI?controls=0"
-          frameborder="0" allowfullscreen>
+        <iframe class="video-content" width="920" height="516"
+          src="https://www.youtube-nocookie.com/embed/xcJtL7QggTI?controls=0" frameborder="0" allowfullscreen>
         </iframe>
       </div>
     </div>
@@ -354,25 +354,28 @@
           <div class="form-inline--title">
             Please, select your goals:
           </div>
-          <div class="form-group custom-checkbox">
-            <input type="checkbox" name="Lorem ipsum" id="checkbox-1" />
-            <label for="checkbox-1">Lorem ipsum</label>
-          </div>
-          <div class="form-group custom-checkbox">
-            <input type="checkbox" name="Dolor sit" id="checkbox-2" />
-            <label for="checkbox-2">Dolor sit</label>
-          </div>
-          <div class="form-group custom-checkbox">
-            <input type="checkbox" name="Consectetur ad" id="checkbox-3" />
-            <label for="checkbox-3">Consectetur ad</label>
-          </div>
-          <div class="form-group custom-checkbox">
-            <input type="checkbox" name="Elit sed" id="checkbox-4" />
-            <label for="checkbox-4">Elit sed</label>
+          <div class="form-group__container d-flex">
+
+            <div class="form-group custom-checkbox">
+              <input type="checkbox" name="Lorem ipsum" id="checkbox-1" />
+              <label for="checkbox-1">Lorem ipsum</label>
+            </div>
+            <div class="form-group custom-checkbox">
+              <input type="checkbox" name="Dolor sit" id="checkbox-2" />
+              <label for="checkbox-2">Dolor sit</label>
+            </div>
+            <div class="form-group custom-checkbox">
+              <input type="checkbox" name="Consectetur ad" id="checkbox-3" />
+              <label for="checkbox-3">Consectetur ad</label>
+            </div>
+            <div class="form-group custom-checkbox">
+              <input type="checkbox" name="Elit sed" id="checkbox-4" />
+              <label for="checkbox-4">Elit sed</label>
+            </div>
           </div>
         </div>
 
-        <div class="form-group form-full">
+        <div class="form-group__txt form-full">
           <label for="txt-1" class="form-label">Your massage</label>
           <textarea type="text" id="txt-1" class="form-txt"></textarea>
         </div>
@@ -386,7 +389,7 @@
       <div class="footer-panel d-flex">
         <div class="footer-panel--left d-flex">
           <div class="footer-logo">
-            <img src="image/logo.png" alt="logo" width="65" />
+            <img src="image/logo.png" alt="logo" width="65" class="footer-logo__img"/>
           </div>
           <div class="footer-panel--copy">
             &copy; 2020 <strong>UNITO</strong> • All Rights Reserved
