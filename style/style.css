@@ -44,13 +44,14 @@ body {
 }
 
 .header__top {
+  padding-top: 80px;
   background: url("../image/header-image.jpg") no-repeat center center;
   background-size: cover;
   padding-bottom: 155px;
 }
 
 .header__logo {
-  margin: 80px 0 95px;
+  margin-bottom: 95px;
 }
 
 .header__description {
@@ -386,7 +387,7 @@ body {
   background: #ffffff;
 }
 
-.custom-checkbox input:checked + label:after {
+.custom-checkbox input:checked+label:after {
   content: "";
   display: block;
   position: absolute;
@@ -438,4 +439,18 @@ body {
   font-weight: 300;
   text-decoration: none;
   color: #ffffff;
+}
+
+
+/* @Media */
+@media (max-width: 1200px) {}
+
+/* Mobile */
+@media (max-width: 768px) {}
+
+/* Phone */
+@media (max-width: 1200px) {
+  .container {
+    padding: 0 40px
+  }
 }
