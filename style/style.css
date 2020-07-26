@@ -387,7 +387,7 @@ body {
   background: #ffffff;
 }
 
-.custom-checkbox input:checked+label:after {
+.custom-checkbox input:checked + label:after {
   content: "";
   display: block;
   position: absolute;
@@ -441,7 +441,6 @@ body {
   color: #ffffff;
 }
 
-
 /* @Media */
 @media (max-width: 1490px) {
   .section-customer--item {
@@ -457,9 +456,12 @@ body {
   }
 }
 
-/* @media (max-width: 1200px) {} */
+@media (max-width: 1200px) {
+  .container {
+    padding: 0 40px;
+  }
+}
 
-/* Mobile */
 @media (max-width: 991px) {
   .button-primary {
     line-height: 30px;
@@ -469,15 +471,16 @@ body {
   }
 
   .header__top {
-    padding-top: 50px;
-    padding-bottom: 130px;
+    padding-top: 5%;
+    padding-bottom: 7%;
   }
 
   .header__logo {
-    margin-bottom: 72px;
+    margin-bottom: 7%;
   }
 
   .header__title {
+    width: 70%;
     font-size: 40px;
     line-height: 50px;
   }
@@ -492,11 +495,11 @@ body {
   }
 
   .header__bottom--item:not(:last-child) {
-    margin-right: 19px;
+    margin-right: 10%px;
   }
 
   .item__icon {
-    margin-right: 20px;
+    margin-right: 10%;
   }
 
   .item__text {
@@ -605,17 +608,21 @@ body {
   }
 
   .footer {
-    padding: 76px 0 48px;
+    padding: 3% 0 3%;
   }
 
   .form {
     padding-bottom: 30px;
   }
 
+  .form-group {
+    width: 40%;
+    margin-bottom: 2%;
+  }
   .form-title {
     font-size: 30px;
     line-height: 40px;
-    margin-bottom: 1px;
+    margin-bottom: 3%;
   }
 
   .form-content {
@@ -635,7 +642,8 @@ body {
   }
 
   .form-inline {
-    margin-bottom: 50px;
+    margin-top: 2%;
+    margin-bottom: 4%;
   }
 
   .form-inline--title {
@@ -646,10 +654,9 @@ body {
     flex-wrap: wrap;
   }
 
-  .form-group {
-    width: 40%;
-  }
-
+  /* .custom-checkbox{
+    margin-bottom: 20px;
+  } */
 
   .form-txt {
     width: 80%;
@@ -659,6 +666,7 @@ body {
   .form-button {
     font-size: 14px;
     line-height: 30px;
+    margin-bottom: 3%;
   }
 
   .footer-logo {
@@ -674,7 +682,6 @@ body {
     font-size: 12px;
     line-height: 19px;
   }
-
 }
 
 @media (max-width: 768px) {
@@ -745,9 +752,5 @@ body {
   }
 }
 
-/* Phone */
-@media (max-width: 1200px) {
-  .container {
-    padding: 0 40px
-  }
+@media (max-width: 320px) {
 }
