@@ -10,12 +10,19 @@ $(document).ready(function () {
         }
       },
       {
-        breakpoint: 320,
+        breakpoint: 768,
+        settings: {
+          arrows: false,
+          slidesToShow: 1
+        }
+      } {
+        breakpoint: 565,
         settings: {
           arrows: false,
           slidesToShow: 1
         }
       }
+
     ]
   });
 
