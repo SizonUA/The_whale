@@ -1,35 +1,41 @@
+new WOW().init();
+
 $(document).ready(function () {
-  $('.slider').slick({
+  $(".slider").slick({
     infinite: true,
     slidesToScroll: 1,
     slidesToShow: 3,
-    responsive: [{
+    responsive: [
+      {
         breakpoint: 991,
         settings: {
-          slidesToShow: 2
-        }
+          slidesToShow: 2,
+        },
       },
       {
         breakpoint: 768,
         settings: {
           arrows: false,
-          slidesToShow: 1
-        }
-      } {
+          slidesToShow: 1,
+        },
+      },
+      {
         breakpoint: 565,
         settings: {
           arrows: false,
-          slidesToShow: 1
-        }
-      }
-
-    ]
+          slidesToShow: 1,
+        },
+      },
+    ],
   });
 
   $("a.js-header-button[href='#footer-panel']").click(function () {
-    $("html, body").animate({
-      scrollTop: $(document).height()
-    }, 2000);
+    $("html, body").animate(
+      {
+        scrollTop: $(document).height(),
+      },
+      2000
+    );
     return false;
   });
 });
