@@ -1,5 +1,3 @@
-new WOW().init();
-
 $(document).ready(function () {
   $(".slider").slick({
     infinite: true,
@@ -18,13 +16,6 @@ $(document).ready(function () {
           slidesToShow: 1,
         },
       },
-      {
-        breakpoint: 565,
-        settings: {
-          arrows: false,
-          slidesToShow: 1,
-        },
-      },
     ],
   });
 
@@ -37,3 +28,6 @@ $(document).ready(function () {
     return false;
   });
 });
+
+
+new WOW().init();

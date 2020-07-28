@@ -48,6 +48,7 @@ body {
   background: url("../image/header-image.jpg") no-repeat center center;
   background-size: cover;
   padding-bottom: 155px;
+  background-attachment: fixed, fixed;
 }
 
 .header__logo {
@@ -387,7 +388,7 @@ body {
   background: #ffffff;
 }
 
-.custom-checkbox input:checked + label:after {
+.custom-checkbox input:checked+label:after {
   content: "";
   display: block;
   position: absolute;
@@ -646,8 +647,7 @@ body {
   }
 
   .form-input {
-    width: 330px;
-    height: 50px;
+    width: 100%;
     font-size: 14px;
   }
 
@@ -668,9 +668,15 @@ body {
   }
 
   .custom-checkbox:not(:last-child) {
-    margin-right: 50px;
-    margin-bottom: 20px;
+    margin-right: 0;
+    margin-bottom: 0;
   }
+
+  .custom-checkbox {
+    width: 50%;
+    padding-bottom: 20px;
+  }
+
 
   .form-txt {
     width: 100%;
@@ -764,7 +770,7 @@ body {
 
   .section-info--right {
     width: 100%;
-    justify-content: center;
+    justify-content: start;
   }
 
   .section-module:nth-child(2n + 1),
@@ -786,8 +792,16 @@ body {
     width: 100%;
   }
 
+  .section-customer--right {
+    justify-content: center;
+  }
+
   .section-customer--img {
     width: 100%;
+    height: auto;
+    position: relative;
+    transform: initial;
+    left: auto;
   }
 
   .section-customer--title {
@@ -830,6 +844,10 @@ body {
     align-items: center;
   }
 
+  .section-partner--item {
+    width: 30%;
+  }
+
   .footer {
     padding: 36px 0 60px;
   }
@@ -862,19 +880,16 @@ body {
     margin: 16px 0;
   }
 
-  .custom-checkbox:not(:last-child) {
-    margin-right: 30px;
-    margin-bottom: 0;
-  }
-
-  .custom-checkbox {
-    width: 40%;
-    margin: 10px 0;
-  }
-
   .form-label {
     font-size: 14px;
   }
+
+  .form-group__container {
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
   .form-txt {
     width: 100%;
     font-size: 14px;
@@ -922,6 +937,7 @@ body {
   .slider {
     padding: 10px;
   }
+
   .slider-description {
     font-size: 16px;
     line-height: 26px;
@@ -929,10 +945,6 @@ body {
 
   .slider-title {
     font-size: 20px;
-  }
-
-  .section-partner--item {
-    width: 100%;
   }
 
   .footer {
@@ -952,6 +964,10 @@ body {
     width: 100%;
   }
 
+  .form-label {
+    font-size: 14px;
+  }
+
   .form-input {
     height: 80%;
     font-size: 14px;
@@ -967,21 +983,16 @@ body {
     margin: 16px 0;
   }
 
-  .custom-checkbox:not(:last-child) {
-    margin-right: 30px;
-    margin-bottom: 0;
+  .form-group__container {
+    flex-direction: column;
+    justify-content: center;
   }
 
   .custom-checkbox {
-    width: 40%;
-    margin: 10px 0;
+    width: 100%;
   }
 
-  .form-label {
-    font-size: 14px;
-  }
   .form-txt {
-    width: 100%;
     font-size: 14px;
     margin-right: 0;
   }

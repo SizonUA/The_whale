@@ -6,10 +6,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300&display=swap"
     rel="stylesheet" />
-  <link rel="stylesheet" href="style/normalize.css" />
-  <link rel="stylesheet" href="style/animate.min.css" />
-  <link rel="stylesheet" href="style/slick.css" />
-  <link rel="stylesheet" href="style/style.css" />
+  <link rel="stylesheet" href="css/normalize.css" />
+  <link rel="stylesheet" href="css/animate.min.css" />
+  <link rel="stylesheet" href="css/animate.css" />
+  <link rel="stylesheet" href="css/slick.css" />
+  <link rel="stylesheet" href="css/style.css" />
   <title>The Whale</title>
 </head>
 
@@ -44,8 +45,8 @@
     <!--  /.header__top -->
 
     <div class="header__bottom">
-      <div class="container d-flex wow fadeInUp" data-wow-delay="0.4s">
-        <div class="header__bottom--item wow fadeInUp" data-wow-delay="0.4s">
+      <div class="container d-flex">
+        <div class="header__bottom--item wow fadeInUp" data-wow-delay="0.2s">
           <img src="image/svg/shield.svg" alt="Done" class="item__icon" />
           <p class="item__text">
             Aliquam massa nisi, iaculis ac nisi sed, dapibus congue ligula.
@@ -61,7 +62,7 @@
         </div>
         <!-- /.header__bottom--item -->
 
-        <div class="header__bottom--item wow fadeInUp" data-wow-delay="0.4s">
+        <div class="header__bottom--item wow fadeInUp" data-wow-delay="0.6s">
           <img src="image/svg/database.svg" alt="Database" class="item__icon" />
           <p class="item__text">
             Aliquam massa nisi, iaculis ac nisi sed, dapibus congue ligula.
@@ -98,7 +99,7 @@
       <!-- /.section-info--left -->
 
       <div class="section-info--right section-info--item d-flex">
-        <div class="section-module wow fadeInUp">
+        <div class="section-module wow fadeInUp" data-wow-delay="0.2s">
           <div class="section-module--icon">
             <img src="image/svg/done.svg" alt="Done" width="52" />
           </div>
@@ -112,7 +113,7 @@
         </div>
         <!-- /.section-module -->
 
-        <div class="section-module wow fadeInUp">
+        <div class="section-module wow fadeInUp" data-wow-delay="0.4s">
           <div class="section-module--icon">
             <img src="image/svg/mail.svg" alt="Done" width="52" />
           </div>
@@ -126,7 +127,7 @@
         </div>
         <!-- /.section-module -->
 
-        <div class="section-module wow fadeInUp">
+        <div class="section-module wow fadeInUp" data-wow-delay="0.2s">
           <div class="section-module--icon">
             <img src="image/svg/share.svg" alt="Done" width="52" />
           </div>
@@ -141,7 +142,7 @@
         </div>
         <!-- /.section-module -->
 
-        <div class="section-module wow fadeInUp">
+        <div class="section-module wow fadeInUp" data-wow-delay="0.4s">
           <div class="section-module--icon">
             <img src="image/svg/puzzle.svg" alt="Done" width="52" />
           </div>
@@ -193,7 +194,8 @@
       </div>
       <div class="section-video--body">
         <iframe class="video-content" width="920" height="516"
-          src="https://www.youtube-nocookie.com/embed/xcJtL7QggTI?controls=0" frameborder="0" allowfullscreen>
+          src="https://www.youtube-nocookie.com/embed/xcJtL7QggTI?controls=0" frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
         </iframe>
       </div>
     </div>
@@ -293,32 +295,32 @@
   <!-- /.section-slider -->
 
   <div class="section-partner container d-flex">
-    <div class="section-partner--item">
+    <div class="section-partner--item wow animate__zoomIn">
       <img src="image/logo/logo-veniam.png" alt="Partner logo" class="section-partner--img" />
     </div>
     <!-- /.section-partner--item -->
 
-    <div class="section-partner--item">
+    <div class="section-partner--item wow animate__zoomIn">
       <img src="image/logo/logo-alpha.png" alt="Partner logo" class="section-partner--img" />
     </div>
     <!-- /.section-partner--item -->
 
-    <div class="section-partner--item">
+    <div class="section-partner--item wow animate__zoomIn">
       <img src="image/logo/logo-fugiat.png" alt="Partner logo" class="section-partner--img" />
     </div>
     <!-- /.section-partner--item -->
 
-    <div class="section-partner--item">
+    <div class="section-partner--item wow animate__zoomIn">
       <img src="image/logo/logo-aquatree.png" alt="Partner logo" class="section-partner--img" />
     </div>
     <!-- /.section-partner--item -->
 
-    <div class="section-partner--item">
+    <div class="section-partner--item wow animate__zoomIn">
       <img src="image/logo/logo-connect.png" alt="Partner logo" class="section-partner--img" />
     </div>
     <!-- /.section-partner--item -->
 
-    <div class="section-partner--item">
+    <div class="section-partner--item wow animate__zoomIn">
       <img src="image/logo/logo-spine.png" alt="Partner logo" class="section-partner--img" />
     </div>
     <!-- /.section-partner--item -->
@@ -387,7 +389,7 @@
       <!-- /.form -->
 
       <div class="footer-panel d-flex">
-        <div class="footer-panel--left d-flex">
+        <div class="footer-panel--left d-flex  wow animate__fadeInLeftBig">
           <div class="footer-logo">
             <img src="image/logo.png" alt="logo" width="65" class="footer-logo__img" />
           </div>
@@ -395,7 +397,7 @@
             &copy; 2020 <strong>UNITO</strong> • All Rights Reserved
           </div>
         </div>
-        <div class="footer-panel--right">
+        <div class="footer-panel--right  wow animate__fadeInRightBig">
           <a href="tel:+1 (949) 424-6602">+1 (949) 424-6602</a> |
           <a href="mailto:hello@unito.com">hello@unito.com</a>
         </div>
