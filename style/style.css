@@ -662,7 +662,9 @@ body {
   }
 
   .form-group__container {
+    width: 50%;
     flex-wrap: wrap;
+    justify-content: space-between;
   }
 
   .custom-checkbox:not(:last-child) {
@@ -671,7 +673,7 @@ body {
   }
 
   .form-txt {
-    width: 690px;
+    width: 100%;
     margin-right: 40px;
     font-size: 12px;
   }

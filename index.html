@@ -1,463 +1,416 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="style/normalize.css" />
-    <link rel="stylesheet" href="style/animate.min.css" />
-    <link rel="stylesheet" href="style/animate.css" />
-    <link rel="stylesheet" href="style/slick.css" />
-    <link rel="stylesheet" href="style/style.css" />
-    <title>The Whale</title>
-  </head>
 
-  <body>
-    <!--  begin header -->
-    <div class="header">
-      <div class="header__top">
-        <div class="container">
-          <div class="header__logo animate__animated animate__backInRight">
-            <a href="index.html">
-              <img src="image/logo.png" alt="logo" />
-            </a>
-          </div>
-          <div class="header__description">
-            <h1 class="header__title">
-              Lorem ipsum dolor sit consectetur adipiscing elit nullam sagittis.
-            </h1>
-            <p class="header__text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
-              sagittis risus et diam euismod vestibulum. Fusce suscipit leo
-              ornare nulla ullamcorper, sed pellentesque libero ornare. Praesent
-              egestas rhoncus sagittis.
-            </p>
-            <a href="#footer-panel" class="button-primary js-header-button">
-              BOOK A MEETING
-            </a>
-          </div>
-          <!-- /.header__description -->
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style/normalize.css" />
+  <link rel="stylesheet" href="style/animate.min.css" />
+  <link rel="stylesheet" href="style/slick.css" />
+  <link rel="stylesheet" href="style/style.css" />
+  <title>The Whale</title>
+</head>
+
+<body>
+  <!--  begin header -->
+  <div class="header">
+    <div class="header__top">
+      <div class="container">
+        <div class="header__logo animate__animated animate__backInRight animate__delay-1s">
+          <a href="index.html">
+            <img src="image/logo.png" alt="logo" />
+          </a>
         </div>
-        <!-- /.container -->
-      </div>
-      <!--  /.header__top -->
-
-      <div class="header__bottom">
-        <div class="container d-flex">
-          <div class="header__bottom--item wow fadeInUp"
-          data-wow-delay="0.4s">
-            <img src="image/svg/shield.svg" alt="Done" class="item__icon" />
-            <p class="item__text">
-              Aliquam massa nisi, iaculis ac nisi sed, dapibus congue ligula.
-            </p>
-          </div>
-          <!-- /.header__bottom--item -->
-
-          <div class="header__bottom--item wow fadeInUp"
-          data-wow-delay="0.4s">
-            <img src="image/svg/cloud.svg" alt="Cloud" class="item__icon" />
-            <p class="item__text">
-              Aliquam massa nisi, iaculis ac nisi sed, dapibus congue ligula.
-            </p>
-          </div>
-          <!-- /.header__bottom--item -->
-
-          <div class="header__bottom--item wow fadeInUp"
-          data-wow-delay="0.4s">
-            <img
-              src="image/svg/database.svg"
-              alt="Database"
-              class="item__icon"
-            />
-            <p class="item__text">
-              Aliquam massa nisi, iaculis ac nisi sed, dapibus congue ligula.
-            </p>
-          </div>
-          <!-- /.header__bottom--item -->
-        </div>
-        <!-- /.container -->
-      </div>
-      <!-- /.header__bottom -->
-    </div>
-    <!-- /.header -->
-
-    <div class="section-info">
-      <div class="container d-flex">
-        <div class="section-info--left section-info--item">
-          <h2 class="section-info--title">
-            Lorem ipsum dolor sit amet, consectetur adipiscing eleifend blandit.
-          </h2>
-          <p class="section-info--text">
-            Aliquam dignissim, nunc eu auctor facilisis, turpis lectus gravida
-            tellus, in facilisis diam erat a nibh. Phasellus malesuada nibh
-            vitae mattis accumsan. Maecenas venenatis auctor odio ut mattis.
-            Proin ut elit in ante semper vulputate.
-            <br />
-            <br />
-            Pellentesque at tristique dui, in efficitur enim. Integer varius
-            orci ex. Morbi dignissim tempor lorem, sed vulputate felis. Nullam
-            tincidunt risus sit amet justo luctus, ut blandit nunc convallis.
-            Aenean vestibulum, tellus sit amet fermentum sollicitudin, felis
-            libero aliquam purus, ac varius erat neque eu diam.
+        <div class="header__description">
+          <h1 class="header__title">
+            Lorem ipsum dolor sit consectetur adipiscing elit nullam sagittis.
+          </h1>
+          <p class="header__text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+            sagittis risus et diam euismod vestibulum. Fusce suscipit leo
+            ornare nulla ullamcorper, sed pellentesque libero ornare. Praesent
+            egestas rhoncus sagittis.
           </p>
+          <a href="#footer-panel" class="button-primary js-header-button">
+            BOOK A MEETING
+          </a>
         </div>
-        <!-- /.section-info--left -->
-
-        <div class="section-info--right section-info--item d-flex">
-          <div class="section-module wow fadeInUp">
-            <div class="section-module--icon">
-              <img src="image/svg/done.svg" alt="Done" width="52" />
-            </div>
-            <h3 class="section-module--title">
-              TINCIDUNT URNA
-            </h3>
-            <p class="section-module--text">
-              Morbi consequat orci non faucibus imperdiet. Nunc eu tristique
-              ipsum. Duis sed dui a ipsum ultrices pulvinar eget eu ligula.
-            </p>
-          </div>
-          <!-- /.section-module -->
-
-          <div class="section-module wow fadeInUp">
-            <div class="section-module--icon">
-              <img src="image/svg/mail.svg" alt="Done" width="52" />
-            </div>
-            <h3 class="section-module--title">
-              LIBERO VITAE
-            </h3>
-            <p class="section-module--text">
-              Morbi consequat orci non faucibus imperdiet. Nunc eu tristique
-              ipsum. Duis sed dui a ipsum ultrices pulvinar eget eu ligula.
-            </p>
-          </div>
-          <!-- /.section-module -->
-
-          <div class="section-module wow fadeInUp">
-            <div class="section-module--icon">
-              <img src="image/svg/share.svg" alt="Done" width="52" />
-            </div>
-
-            <h3 class="section-module--title">
-              EUISMOD ULTRICES
-            </h3>
-            <p class="section-module--text">
-              Morbi consequat orci non faucibus imperdiet. Nunc eu tristique
-              ipsum. Duis sed dui a ipsum ultrices pulvinar eget eu ligula.
-            </p>
-          </div>
-          <!-- /.section-module -->
-
-          <div class="section-module wow fadeInUp">
-            <div class="section-module--icon">
-              <img src="image/svg/puzzle.svg" alt="Done" width="52" />
-            </div>
-
-            <h3 class="section-module--title">
-              DUIS SAGITTIS
-            </h3>
-            <p class="section-module--text">
-              Morbi consequat orci non faucibus imperdiet. Nunc eu tristique
-              ipsum. Duis sed dui a ipsum ultrices pulvinar eget eu ligula.
-            </p>
-          </div>
-          <!-- /.section-module -->
-        </div>
-        <!-- /.section-info--right -->
+        <!-- /.header__description -->
       </div>
       <!-- /.container -->
     </div>
-    <!-- /.section-info -->
+    <!--  /.header__top -->
 
-    <div class="section-customer d-flex">
-      <div class="section-customer--left section-customer--item">
-        <img
-          class="section-customer--img"
-          src="image/section-customer.jpg"
-          alt="Section customer"
-        />
+    <div class="header__bottom">
+      <div class="container d-flex wow fadeInUp" data-wow-delay="0.4s">
+        <div class="header__bottom--item wow fadeInUp" data-wow-delay="0.4s">
+          <img src="image/svg/shield.svg" alt="Done" class="item__icon" />
+          <p class="item__text">
+            Aliquam massa nisi, iaculis ac nisi sed, dapibus congue ligula.
+          </p>
+        </div>
+        <!-- /.header__bottom--item -->
+
+        <div class="header__bottom--item wow fadeInUp" data-wow-delay="0.4s">
+          <img src="image/svg/cloud.svg" alt="Cloud" class="item__icon" />
+          <p class="item__text">
+            Aliquam massa nisi, iaculis ac nisi sed, dapibus congue ligula.
+          </p>
+        </div>
+        <!-- /.header__bottom--item -->
+
+        <div class="header__bottom--item wow fadeInUp" data-wow-delay="0.4s">
+          <img src="image/svg/database.svg" alt="Database" class="item__icon" />
+          <p class="item__text">
+            Aliquam massa nisi, iaculis ac nisi sed, dapibus congue ligula.
+          </p>
+        </div>
+        <!-- /.header__bottom--item -->
       </div>
-      <div class="section-customer--right section-customer--item">
-        <div class="section-customer--body">
-          <h3 class="section-customer--title">
-            Lorem ipsum dolor sit amet, consectetur elit eleifend schwifty.
+      <!-- /.container -->
+    </div>
+    <!-- /.header__bottom -->
+  </div>
+  <!-- /.header -->
+
+  <div class="section-info">
+    <div class="container d-flex">
+      <div class="section-info--left section-info--item">
+        <h2 class="section-info--title">
+          Lorem ipsum dolor sit amet, consectetur adipiscing eleifend blandit.
+        </h2>
+        <p class="section-info--text">
+          Aliquam dignissim, nunc eu auctor facilisis, turpis lectus gravida
+          tellus, in facilisis diam erat a nibh. Phasellus malesuada nibh
+          vitae mattis accumsan. Maecenas venenatis auctor odio ut mattis.
+          Proin ut elit in ante semper vulputate.
+          <br />
+          <br />
+          Pellentesque at tristique dui, in efficitur enim. Integer varius
+          orci ex. Morbi dignissim tempor lorem, sed vulputate felis. Nullam
+          tincidunt risus sit amet justo luctus, ut blandit nunc convallis.
+          Aenean vestibulum, tellus sit amet fermentum sollicitudin, felis
+          libero aliquam purus, ac varius erat neque eu diam.
+        </p>
+      </div>
+      <!-- /.section-info--left -->
+
+      <div class="section-info--right section-info--item d-flex">
+        <div class="section-module wow fadeInUp">
+          <div class="section-module--icon">
+            <img src="image/svg/done.svg" alt="Done" width="52" />
+          </div>
+          <h3 class="section-module--title">
+            TINCIDUNT URNA
           </h3>
-          <p class="section-customer--text">
-            Phasellus quis sapien ac ex eleifend viverra non vulputate mi.
-            Praesent in sodales lacus, et vehicula ex. Pellentesque elementum eu
-            nisl non posuere. Sed lobortis purus non tempor dapibus.
-            <br />
-            <br />
-            Sed nec iaculis leo, in luctus ipsum. Sed eu neque consectetur,
-            mollis neque vel, ultrices quam. Donec ullamcorper consectetur
-            lacinia. Praesent laoreet enim eget leo suscipit, at bibendum elit
-            egestas. Cras euismod congue nunc id convallis.
+          <p class="section-module--text">
+            Morbi consequat orci non faucibus imperdiet. Nunc eu tristique
+            ipsum. Duis sed dui a ipsum ultrices pulvinar eget eu ligula.
           </p>
         </div>
-      </div>
-    </div>
+        <!-- /.section-module -->
 
-    <div class="section-video">
-      <div class="container">
-        <div class="section-video--title">
-          Lorem ipsum dolor sit amet.
+        <div class="section-module wow fadeInUp">
+          <div class="section-module--icon">
+            <img src="image/svg/mail.svg" alt="Done" width="52" />
+          </div>
+          <h3 class="section-module--title">
+            LIBERO VITAE
+          </h3>
+          <p class="section-module--text">
+            Morbi consequat orci non faucibus imperdiet. Nunc eu tristique
+            ipsum. Duis sed dui a ipsum ultrices pulvinar eget eu ligula.
+          </p>
         </div>
-        <div class="section-video--body">
-          <iframe
-            class="video-content"
-            width="920"
-            height="516"
-            src="https://www.youtube-nocookie.com/embed/xcJtL7QggTI?controls=0"
-            frameborder="0"
-            allowfullscreen
-          >
-          </iframe>
+        <!-- /.section-module -->
+
+        <div class="section-module wow fadeInUp">
+          <div class="section-module--icon">
+            <img src="image/svg/share.svg" alt="Done" width="52" />
+          </div>
+
+          <h3 class="section-module--title">
+            EUISMOD ULTRICES
+          </h3>
+          <p class="section-module--text">
+            Morbi consequat orci non faucibus imperdiet. Nunc eu tristique
+            ipsum. Duis sed dui a ipsum ultrices pulvinar eget eu ligula.
+          </p>
         </div>
-      </div>
-      <!-- /.container -->
-    </div>
-    <!-- /.section-video -->
+        <!-- /.section-module -->
 
-    <div class="section-slider">
-      <div class="container">
-        <div class="section-slider--title">
-          Lorem ipsum dolor sit amet.
+        <div class="section-module wow fadeInUp">
+          <div class="section-module--icon">
+            <img src="image/svg/puzzle.svg" alt="Done" width="52" />
+          </div>
+
+          <h3 class="section-module--title">
+            DUIS SAGITTIS
+          </h3>
+          <p class="section-module--text">
+            Morbi consequat orci non faucibus imperdiet. Nunc eu tristique
+            ipsum. Duis sed dui a ipsum ultrices pulvinar eget eu ligula.
+          </p>
         </div>
-        <div class="slider">
-          <div class="slider-item">
-            <div class="slider-description">
-              “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id
-              sagittis urna, sit amet rhoncus orci. Maecenas in diam ac augue
-              ultricies.“
-            </div>
-            <div class="slider-title">
-              Alyssa Aitken
-            </div>
-            <div class="slider-subtitle">
-              Director Sales Management
-            </div>
-          </div>
-          <div class="slider-item">
-            <div class="slider-description">
-              “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id
-              sagittis urna, sit amet rhoncus orci. Maecenas in diam ac augue
-              ultricies.“
-            </div>
-            <div class="slider-title">
-              Alyssa Aitken
-            </div>
-            <div class="slider-subtitle">
-              Director Sales Management
-            </div>
-          </div>
-          <div class="slider-item">
-            <div class="slider-description">
-              “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id
-              sagittis urna, sit amet rhoncus orci. Maecenas in diam ac augue
-              ultricies.“
-            </div>
-            <div class="slider-title">
-              Alyssa Aitken
-            </div>
-            <div class="slider-subtitle">
-              Director Sales Management
-            </div>
-          </div>
-          <div class="slider-item">
-            <div class="slider-description">
-              “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id
-              sagittis urna, sit amet rhoncus orci. Maecenas in diam ac augue
-              ultricies.“
-            </div>
-            <div class="slider-title">
-              Alyssa Aitken
-            </div>
-            <div class="slider-subtitle">
-              Director Sales Management
-            </div>
-          </div>
-          <div class="slider-item">
-            <div class="slider-description">
-              “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id
-              sagittis urna, sit amet rhoncus orci. Maecenas in diam ac augue
-              ultricies.“
-            </div>
-            <div class="slider-title">
-              Alyssa Aitken
-            </div>
-            <div class="slider-subtitle">
-              Director Sales Management
-            </div>
-          </div>
-          <div class="slider-item">
-            <div class="slider-description">
-              “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id
-              sagittis urna, sit amet rhoncus orci. Maecenas in diam ac augue
-              ultricies.“
-            </div>
-            <div class="slider-title">
-              Alyssa Aitken
-            </div>
-            <div class="slider-subtitle">
-              Director Sales Management
-            </div>
-          </div>
-        </div>
-        <!-- /.slider -->
+        <!-- /.section-module -->
       </div>
-      <!-- /.container -->
-    </div>
-    <!-- /.section-slider -->
-
-    <div class="section-partner container d-flex">
-      <div class="section-partner--item">
-        <img
-          src="image/logo/logo-veniam.png"
-          alt="Partner logo"
-          class="section-partner--img"
-        />
-      </div>
-      <!-- /.section-partner--item -->
-
-      <div class="section-partner--item">
-        <img
-          src="image/logo/logo-alpha.png"
-          alt="Partner logo"
-          class="section-partner--img"
-        />
-      </div>
-      <!-- /.section-partner--item -->
-
-      <div class="section-partner--item">
-        <img
-          src="image/logo/logo-fugiat.png"
-          alt="Partner logo"
-          class="section-partner--img"
-        />
-      </div>
-      <!-- /.section-partner--item -->
-
-      <div class="section-partner--item">
-        <img
-          src="image/logo/logo-aquatree.png"
-          alt="Partner logo"
-          class="section-partner--img"
-        />
-      </div>
-      <!-- /.section-partner--item -->
-
-      <div class="section-partner--item">
-        <img
-          src="image/logo/logo-connect.png"
-          alt="Partner logo"
-          class="section-partner--img"
-        />
-      </div>
-      <!-- /.section-partner--item -->
-
-      <div class="section-partner--item">
-        <img
-          src="image/logo/logo-spine.png"
-          alt="Partner logo"
-          class="section-partner--img"
-        />
-      </div>
-      <!-- /.section-partner--item -->
+      <!-- /.section-info--right -->
     </div>
     <!-- /.container -->
+  </div>
+  <!-- /.section-info -->
 
-    <footer class="footer" id="footer-panel">
-      <div class="container">
-        <div class="form">
-          <div class="form-title">
-            Vestibulum ornare nec enim at viverra integer non quam euismod.
-          </div>
-          <div class="form-content d-flex">
-            <div class="form-group">
-              <label for="inp-1" class="form-label">Name</label>
-              <input type="text" id="inp-1" class="form-input" />
-            </div>
-            <div class="form-group">
-              <label for="inp-2" class="form-label">Company</label>
-              <input type="text" id="inp-2" class="form-input" />
-            </div>
-            <div class="form-group">
-              <label for="inp-3" class="form-label">E-mail</label>
-              <input type="text" id="inp-3" class="form-input" />
-            </div>
-            <div class="form-group">
-              <label for="inp-4" class="form-label">Phone Number</label>
-              <input type="text" id="inp-4" class="form-input" />
-            </div>
-          </div>
-          <!-- /.form-content -->
-
-          <div class="form-inline d-flex">
-            <div class="form-inline--title">
-              Please, select your goals:
-            </div>
-            <div class="form-group__container d-flex">
-              <div class="form-group custom-checkbox">
-                <input type="checkbox" name="Lorem ipsum" id="checkbox-1" />
-                <label for="checkbox-1" input="checked">Lorem ipsum</label>
-              </div>
-              <div class="form-group custom-checkbox">
-                <input type="checkbox" name="Dolor sit" id="checkbox-2" />
-                <label for="checkbox-2">Dolor sit</label>
-              </div>
-              <div class="form-group custom-checkbox">
-                <input type="checkbox" name="Consectetur ad" id="checkbox-3" />
-                <label for="checkbox-3">Consectetur ad</label>
-              </div>
-              <div class="form-group custom-checkbox">
-                <input type="checkbox" name="Elit sed" id="checkbox-4" />
-                <label for="checkbox-4">Elit sed</label>
-              </div>
-            </div>
-          </div>
-
-          <div class="form-group__txt form-full">
-            <label for="txt-1" class="form-label">Your massage</label>
-            <textarea type="text" id="txt-1" class="form-txt"></textarea>
-          </div>
-
-          <div class="form-button d-flex">
-            <button class="button-primary" type="button">Submit</button>
-          </div>
-        </div>
-        <!-- /.form -->
-
-        <div class="footer-panel d-flex">
-          <div class="footer-panel--left d-flex">
-            <div class="footer-logo">
-              <img
-                src="image/logo.png"
-                alt="logo"
-                width="65"
-                class="footer-logo__img"
-              />
-            </div>
-            <div class="footer-panel--copy">
-              &copy; 2020 <strong>UNITO</strong> • All Rights Reserved
-            </div>
-          </div>
-          <div class="footer-panel--right">
-            <a href="tel:+1 (949) 424-6602">+1 (949) 424-6602</a> |
-            <a href="mailto:hello@unito.com">hello@unito.com</a>
-          </div>
-        </div>
-        <!-- /.footer-panel -->
+  <div class="section-customer d-flex">
+    <div class="section-customer--left section-customer--item">
+      <img class="section-customer--img" src="image/section-customer.jpg" alt="Section customer" />
+    </div>
+    <div class="section-customer--right section-customer--item">
+      <div class="section-customer--body">
+        <h3 class="section-customer--title">
+          Lorem ipsum dolor sit amet, consectetur elit eleifend schwifty.
+        </h3>
+        <p class="section-customer--text">
+          Phasellus quis sapien ac ex eleifend viverra non vulputate mi.
+          Praesent in sodales lacus, et vehicula ex. Pellentesque elementum eu
+          nisl non posuere. Sed lobortis purus non tempor dapibus.
+          <br />
+          <br />
+          Sed nec iaculis leo, in luctus ipsum. Sed eu neque consectetur,
+          mollis neque vel, ultrices quam. Donec ullamcorper consectetur
+          lacinia. Praesent laoreet enim eget leo suscipit, at bibendum elit
+          egestas. Cras euismod congue nunc id convallis.
+        </p>
       </div>
-      <!-- /.container -->
-    </footer>
-    <!-- /.footer -->
+    </div>
+  </div>
 
-    <script src="script/jquery-1.11.0.min.js"></script>
-    <script src="script/jquery-migrate-1.2.1.min.js"></script>
-    <script src="script/slick.min.js"></script>
-    <script src="script/wow.min.js"></script>
-    <script src="script/main.js"></script>
-  </body>
+  <div class="section-video">
+    <div class="container">
+      <div class="section-video--title">
+        Lorem ipsum dolor sit amet.
+      </div>
+      <div class="section-video--body">
+        <iframe class="video-content" width="920" height="516"
+          src="https://www.youtube-nocookie.com/embed/xcJtL7QggTI?controls=0" frameborder="0" allowfullscreen>
+        </iframe>
+      </div>
+    </div>
+    <!-- /.container -->
+  </div>
+  <!-- /.section-video -->
+
+  <div class="section-slider">
+    <div class="container">
+      <div class="section-slider--title">
+        Lorem ipsum dolor sit amet.
+      </div>
+      <div class="slider">
+        <div class="slider-item">
+          <div class="slider-description">
+            “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id
+            sagittis urna, sit amet rhoncus orci. Maecenas in diam ac augue
+            ultricies.“
+          </div>
+          <div class="slider-title">
+            Alyssa Aitken
+          </div>
+          <div class="slider-subtitle">
+            Director Sales Management
+          </div>
+        </div>
+        <div class="slider-item">
+          <div class="slider-description">
+            “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id
+            sagittis urna, sit amet rhoncus orci. Maecenas in diam ac augue
+            ultricies.“
+          </div>
+          <div class="slider-title">
+            Alyssa Aitken
+          </div>
+          <div class="slider-subtitle">
+            Director Sales Management
+          </div>
+        </div>
+        <div class="slider-item">
+          <div class="slider-description">
+            “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id
+            sagittis urna, sit amet rhoncus orci. Maecenas in diam ac augue
+            ultricies.“
+          </div>
+          <div class="slider-title">
+            Alyssa Aitken
+          </div>
+          <div class="slider-subtitle">
+            Director Sales Management
+          </div>
+        </div>
+        <div class="slider-item">
+          <div class="slider-description">
+            “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id
+            sagittis urna, sit amet rhoncus orci. Maecenas in diam ac augue
+            ultricies.“
+          </div>
+          <div class="slider-title">
+            Alyssa Aitken
+          </div>
+          <div class="slider-subtitle">
+            Director Sales Management
+          </div>
+        </div>
+        <div class="slider-item">
+          <div class="slider-description">
+            “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id
+            sagittis urna, sit amet rhoncus orci. Maecenas in diam ac augue
+            ultricies.“
+          </div>
+          <div class="slider-title">
+            Alyssa Aitken
+          </div>
+          <div class="slider-subtitle">
+            Director Sales Management
+          </div>
+        </div>
+        <div class="slider-item">
+          <div class="slider-description">
+            “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id
+            sagittis urna, sit amet rhoncus orci. Maecenas in diam ac augue
+            ultricies.“
+          </div>
+          <div class="slider-title">
+            Alyssa Aitken
+          </div>
+          <div class="slider-subtitle">
+            Director Sales Management
+          </div>
+        </div>
+      </div>
+      <!-- /.slider -->
+    </div>
+    <!-- /.container -->
+  </div>
+  <!-- /.section-slider -->
+
+  <div class="section-partner container d-flex">
+    <div class="section-partner--item">
+      <img src="image/logo/logo-veniam.png" alt="Partner logo" class="section-partner--img" />
+    </div>
+    <!-- /.section-partner--item -->
+
+    <div class="section-partner--item">
+      <img src="image/logo/logo-alpha.png" alt="Partner logo" class="section-partner--img" />
+    </div>
+    <!-- /.section-partner--item -->
+
+    <div class="section-partner--item">
+      <img src="image/logo/logo-fugiat.png" alt="Partner logo" class="section-partner--img" />
+    </div>
+    <!-- /.section-partner--item -->
+
+    <div class="section-partner--item">
+      <img src="image/logo/logo-aquatree.png" alt="Partner logo" class="section-partner--img" />
+    </div>
+    <!-- /.section-partner--item -->
+
+    <div class="section-partner--item">
+      <img src="image/logo/logo-connect.png" alt="Partner logo" class="section-partner--img" />
+    </div>
+    <!-- /.section-partner--item -->
+
+    <div class="section-partner--item">
+      <img src="image/logo/logo-spine.png" alt="Partner logo" class="section-partner--img" />
+    </div>
+    <!-- /.section-partner--item -->
+  </div>
+  <!-- /.container -->
+
+  <footer class="footer" id="footer-panel">
+    <div class="container">
+      <div class="form">
+        <div class="form-title">
+          Vestibulum ornare nec enim at viverra integer non quam euismod.
+        </div>
+        <div class="form-content d-flex">
+          <div class="form-group">
+            <label for="inp-1" class="form-label">Name</label>
+            <input type="text" id="inp-1" class="form-input" />
+          </div>
+          <div class="form-group">
+            <label for="inp-2" class="form-label">Company</label>
+            <input type="text" id="inp-2" class="form-input" />
+          </div>
+          <div class="form-group">
+            <label for="inp-3" class="form-label">E-mail</label>
+            <input type="text" id="inp-3" class="form-input" />
+          </div>
+          <div class="form-group">
+            <label for="inp-4" class="form-label">Phone Number</label>
+            <input type="text" id="inp-4" class="form-input" />
+          </div>
+        </div>
+        <!-- /.form-content -->
+
+        <div class="form-inline d-flex">
+          <div class="form-inline--title">
+            Please, select your goals:
+          </div>
+          <div class="form-group__container d-flex">
+            <div class="form-group custom-checkbox">
+              <input type="checkbox" name="Lorem ipsum" id="checkbox-1" />
+              <label for="checkbox-1" input="checked">Lorem ipsum</label>
+            </div>
+            <div class="form-group custom-checkbox">
+              <input type="checkbox" name="Dolor sit" id="checkbox-2" />
+              <label for="checkbox-2">Dolor sit</label>
+            </div>
+            <div class="form-group custom-checkbox">
+              <input type="checkbox" name="Consectetur ad" id="checkbox-3" />
+              <label for="checkbox-3">Consectetur ad</label>
+            </div>
+            <div class="form-group custom-checkbox">
+              <input type="checkbox" name="Elit sed" id="checkbox-4" />
+              <label for="checkbox-4">Elit sed</label>
+            </div>
+          </div>
+        </div>
+
+        <div class="form-group__txt form-full">
+          <label for="txt-1" class="form-label">Your massage</label>
+          <textarea type="text" id="txt-1" class="form-txt"></textarea>
+        </div>
+
+        <div class="form-button d-flex">
+          <button class="button-primary" type="button">Submit</button>
+        </div>
+      </div>
+      <!-- /.form -->
+
+      <div class="footer-panel d-flex">
+        <div class="footer-panel--left d-flex">
+          <div class="footer-logo">
+            <img src="image/logo.png" alt="logo" width="65" class="footer-logo__img" />
+          </div>
+          <div class="footer-panel--copy">
+            &copy; 2020 <strong>UNITO</strong> • All Rights Reserved
+          </div>
+        </div>
+        <div class="footer-panel--right">
+          <a href="tel:+1 (949) 424-6602">+1 (949) 424-6602</a> |
+          <a href="mailto:hello@unito.com">hello@unito.com</a>
+        </div>
+      </div>
+      <!-- /.footer-panel -->
+    </div>
+    <!-- /.container -->
+  </footer>
+  <!-- /.footer -->
+
+  <script src="script/wow.min.js"></script>
+  <script src="script/jquery-1.11.0.min.js"></script>
+  <script src="script/jquery-migrate-1.2.1.min.js"></script>
+  <script src="script/slick.min.js"></script>
+  <script src="script/main.js"></script>
+</body>
+
 </html>

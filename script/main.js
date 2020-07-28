@@ -5,8 +5,7 @@ $(document).ready(function () {
     infinite: true,
     slidesToScroll: 1,
     slidesToShow: 3,
-    responsive: [
-      {
+    responsive: [{
         breakpoint: 991,
         settings: {
           slidesToShow: 2,
@@ -30,8 +29,7 @@ $(document).ready(function () {
   });
 
   $("a.js-header-button[href='#footer-panel']").click(function () {
-    $("html, body").animate(
-      {
+    $("html, body").animate({
         scrollTop: $(document).height(),
       },
       2000
